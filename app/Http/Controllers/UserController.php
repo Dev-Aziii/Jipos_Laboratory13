@@ -28,7 +28,6 @@ class UserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-
         return redirect('/login')->with('success', 'Registered successfully. Please login.');
     }
 

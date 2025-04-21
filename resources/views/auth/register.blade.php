@@ -6,6 +6,9 @@
     <div class="container d-flex justify-content-center align-items-center vh-100">
         <div class="card shadow-lg" style="max-width: 600px; width: 100%;">
             <div class="card-body">
+                <div class="card-header d-flex flex-column align-items-center mb-3">
+                    <h1>REGISTER</h1>
+                </div>
                 <form method="POST" action="{{ route('registration.post') }}">
                     @csrf
                     <div class="mb-3">
